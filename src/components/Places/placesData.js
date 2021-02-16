@@ -27,13 +27,13 @@ export const placesData = [
     {
         name: 'Italy',
         img: Italy,
-        description: '',
+        description: 'Head to the coast and see the towns of Cinque Terra.',
         btn: 'Explore'
     },
     {
         name: 'Greece',
         img: Greece,
-        description: '',
+        description: 'Check out the stunning Greek islands, especially Oia in Santorini.',
         btn: 'Explore'
     }
 ]

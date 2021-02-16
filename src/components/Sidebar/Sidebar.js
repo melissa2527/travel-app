@@ -13,11 +13,11 @@ export const Sidebar = ({isOpen, toggle}) => {
                 <SidebarLink to='/'>France</SidebarLink>
                 <SidebarLink to='/'>Czech Republic</SidebarLink>
                 <SidebarLink to='/'>Italy</SidebarLink>
-                
+
+                <BtnWrap>
+                    <SidebarRoute to='/'>More Info</SidebarRoute>
+                </BtnWrap>
             </SidebarMenu>
-            <BtnWrap>
-                <SidebarRoute to='/'>More Info</SidebarRoute>
-            </BtnWrap>
         </SidebarContainer>
     )
 }

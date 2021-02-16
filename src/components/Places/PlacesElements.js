@@ -53,7 +53,7 @@ export const Info =styled.div`
 `
 
 export const Description = styled.p`
-    margin-bottom: 1rem;
+    height: 6em;
 `
 
 export const Button = styled.button`
@@ -61,7 +61,7 @@ export const Button = styled.button`
     padding: 1rem 4rem;
     border: none;
     background: aqua;
-    color: #fff;
+    color: #232323;
     transition: 0.2 ease-in-out;
 
     &:hover {

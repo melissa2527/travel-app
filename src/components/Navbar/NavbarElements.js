@@ -41,5 +41,5 @@ export const NavIcon = styled.div`
 
 export const Bars = styled(FaPlane)`
     font-size: 2rem;
-    transform: translate(-50%);
+    transform: rotate(-45deg);
 `

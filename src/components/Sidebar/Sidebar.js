@@ -8,11 +8,11 @@ export const Sidebar = ({isOpen, toggle}) => {
                <CloseIcon onClick={toggle}/>
             </Icon> 
             <SidebarMenu>
-                <SidebarLink to='/'>Greece</SidebarLink>
-                <SidebarLink to='/'>Spain</SidebarLink>
-                <SidebarLink to='/'>France</SidebarLink>
-                <SidebarLink to='/'>Czech Republic</SidebarLink>
-                <SidebarLink to='/'>Italy</SidebarLink>
+                <SidebarLink to='/greece'>Greece</SidebarLink>
+                <SidebarLink to='/spain'>Spain</SidebarLink>
+                <SidebarLink to='/france'>France</SidebarLink>
+                <SidebarLink to='/czech-republic'>Czech Republic</SidebarLink>
+                <SidebarLink to='/italy'>Italy</SidebarLink>
 
                 <BtnWrap>
                     <SidebarRoute to='/'>More Info</SidebarRoute>

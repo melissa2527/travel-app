@@ -61,6 +61,7 @@ export const SidebarLink = styled(Link)`
     &:hover {
         color: #e31837;
         transition: 0.2s ease-in-out;
+        transform: scale(1.2);
     }
 `
 
@@ -86,5 +87,6 @@ export const SidebarRoute = styled(Link)`
         transition: 0.2s ease-in-out;
         background: #fff;
         color: #010606;
+        transform: scale(1.2);
     }
 `

@@ -1,5 +1,5 @@
 import React from 'react'
-import {PlacesContainer, Heading, PlacesWrapper, Card, Img, ImgContainer, Info, Title, Description, Price, Button} from './PlacesElements';
+import {PlacesContainer, Heading, PlacesWrapper, Card, Img, ImgContainer, Info, Title, Description, Button} from './PlacesElements';
 
 export const Places = ({heading, data}) => {
     return (

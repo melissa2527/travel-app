@@ -34,17 +34,30 @@ export const Items = styled.div`
 `
 
 export const HeroH1 = styled.h1`
-    font-size: clamp(2rem, 20vw, 5rem);
+    font-size: 5rem;
     margin-bottom: 1rem;
     padding-right: 4rem;
     box-shadow: 3px 5px yellow;
     letter-spacing: 3px;
     text-shadow: 3px 2px #232323;
+
+    @media screen and (max-width: 750px) {
+        font-size: 3rem;
+    }
+
+    @media screen and (max-width: 550px) {
+        font-size: 2rem;
+        margin-top: 5rem;
+    }
 `
 
 export const HeroP = styled.p`
-    font-size: clamp(2rem, 2.5vw, 3rem);
+    font-size: 3rem;
     margin-bottom: 2rem;
+
+    @media screen and (max-width: 750px) {
+        font-size: 1.5rem;
+    } 
 `
 
 export const HeroBtn = styled.button`
@@ -60,4 +73,9 @@ export const HeroBtn = styled.button`
         transition: 0.3 ease-out;
         color: #000;
     }
+
+    @media screen and (max-width: 650px) {
+        font-size: 1.25rem;
+        margin: 0 auto;
+    } 
 `
